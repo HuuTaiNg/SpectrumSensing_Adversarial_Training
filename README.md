@@ -10,7 +10,7 @@ This paper proposes an Adversarial Training Approach (ATA) to improve the segmen
 
 The Python code and dataset provided here are included in the under-review paper at IEEE Wireless Communications Letters.
 
-Hai-Trang Phuoc Dang, Huu-Tai Nguyen, Quoc-Viet Pham, Van-Ca Phan, and Thien Huynh-The,"Adversarial Training Approach for Signal Identification in 5G-LTE Spectrum Sensing", IEEE WCL, 2025.
+Hai-Trang Phuoc Dang, Huu-Tai Nguyen, Quoc-Viet Pham, Van-Ca Phan, and Thien Huynh-The, "Adversarial Training Approach for Signal Identification in 5G-LTE Spectrum Sensing", IEEE WCL, 2025.
 
 The dataset can be dowloaded from [Kaggle](https://www.kaggle.com/datasets/huutai23012003/j03-dataset/data). Please report if it is not available.
 
