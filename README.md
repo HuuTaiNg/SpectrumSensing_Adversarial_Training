@@ -1,1 +1,5 @@
-# SpectrumSensing_AdversarialTrainingApproach
+# Adversarial Training Approach for Signal Identification in 5G-LTE Spectrum Sensing
+
+Spectrum sensing plays a key role in identifying wireless signals, especially when 5G and LTE share the same frequency band. However, training models for this task faces challenges such as limited real-world data, signal distortion due to noise and channel effects, and the limitations of traditional loss functions in distinguishing signals from noise. These issues call for advanced training strategies to improve detection accuracy.
+
+This paper proposes an Adversarial Training Approach (ATA) to improve the segmentation of 5G and LTE signals from spectrograms. ATA integrates a lightweight discriminator network into the training loop, which acts as an additional supervisory signal. Unlike traditional methods that rely solely on pixel-wise loss, ATA encourages the segmentation model to generate outputs that not only match the ground truth but also fool the discriminator. This adversarial feedback enables the model to learn finer spectral details under noise and channel impairments. Experimental results show that ATA improves performance across various segmentation models without modifying their architectures, highlighting its effectiveness, generality, and efficiency.
